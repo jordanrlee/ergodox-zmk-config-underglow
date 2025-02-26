@@ -1,11 +1,13 @@
+# TODO TODO TODO temporary until v20250120 becomes the main branch.
+
 manifest:
   remotes:
-    - name: slicemk
-      url-base: https://github.com/slicemk
+    - name: xudongzheng
+      url-base: https://github.com/xudongzheng
   projects:
     - name: zmk
-      remote: slicemk
-      revision: main
+      remote: xudongzheng
+      revision: v20250120-min
       import: app/west.yml
   self:
     path: config
