@@ -3,6 +3,20 @@
 # dongle such as the older Raytac "blue" dongle, you will need to modify
 # "board". For a dongleless setup, you will need to modify both "board" and
 # "shield". Please see "readme.md" for more details.
+
+# TODO TODO TODO this should be under slicemk parent repo. rename branch too.
+
+# TODO TODO TODO build for every dongle.
 include:
+  - board: nordic_nrf52840_dongle_slicemk
+    shield: slicemk_ergodox_dongle
+  - board: raytac_mdbt50q_cx_blue
+    shield: slicemk_ergodox_dongle
+  - board: raytac_mdbt50q_rx
+    shield: slicemk_ergodox_dongle
   - board: raytac_mdbt50q_rx_green
+    shield: slicemk_ergodox_dongle
+  - board: slicemk_1551usb3_ms88sfa_blue
+    shield: slicemk_ergodox_dongle
+  - board: slicemk_usbc_mdbt50q_blue
     shield: slicemk_ergodox_dongle
